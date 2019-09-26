@@ -15,4 +15,14 @@ class Solution(object):
             mydict[num] = 1
         return result
           
+# Method 2
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        numsSet = set(nums)
+        return len(numsSet) != len(nums)
+
   
