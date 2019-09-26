@@ -5,6 +5,8 @@ class Solution(object):
         :type k: int
         :rtype: None Do not return anything, modify nums in-place instead.
         """
+        
         n = len(nums)
-        nums[:] = nums[n-k:] + nums[:k+1]
+
+        nums[:] = nums[n-k:] + nums[:n-k]
         
