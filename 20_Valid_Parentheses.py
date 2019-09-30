@@ -19,8 +19,8 @@ class Solution:
                 last_open = stack.pop()
                 
                 if (last_open,paren) not in matches:
-                    return False
+                    return False 
                 
         return len(stack) == 0
     
-   
+ 
