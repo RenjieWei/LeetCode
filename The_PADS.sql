@@ -5,7 +5,7 @@
 
 -- There are a total of [occupation_count] [occupation]s.
 
-select concat(Name,'(',substring(Name,1,1),')') 
+select concat(Name,'(',substring(Occupation,1,1),')') 
 from occupations 
 order by Name;
 
