@@ -3,3 +3,4 @@
 - 626_Exchange_Seats
 - 1164_Product_Price_at_a_Given_Date
 - 1511_Customer_Order_Frequency
+- 1225_Report_Contiguous_Dates
