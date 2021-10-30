@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+# be careful of the 'where statement' because it will filter out records, and leading to uncompleteness
 SELECT
     u.user_id AS seller_id,
     CASE 
